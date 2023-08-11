@@ -1,4 +1,4 @@
-# nuxt-redirects
+# nuxt-easy-redirect
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -7,25 +7,25 @@
 
 Configure simple Redirects within your Nuxt application ➡️
 
-- [✨ &nbsp;Release Notes](https://github.com/casualmatt/nuxt-redirects/releases)
+- [✨ &nbsp;Release Notes](https://github.com/casualmatt/nuxt-easy-redirect/releases)
 
 ## Setup
 
 ```sh
-yarn add nuxt-redirects # yarn
-npm i nuxt-redirects # npm
-pnpm add nuxt-redirects # pnpm
+yarn add nuxt-easy-redirect # yarn
+npm i nuxt-easy-redirect # npm
+pnpm add nuxt-easy-redirect # pnpm
 ```
 
 ## Basic usage
 
-Add `nuxt-redirects` to your Nuxt config:
+Add `nuxt-easy-redirect` to your Nuxt config:
 
 ```typescript
 // nuxt.config.ts
 
 export default defineNuxtConfig({
-  modules: ["nuxt-redirects"],
+  modules: ["nuxt-easy-redirect"],
 });
 ```
 
@@ -36,7 +36,7 @@ You can configure `nuxt-redirects` in your `nuxt.config.ts` file:
 ```typescript
 // nuxt.config.ts
 export default defineNuxtConfig({
-  modules: ["nuxt-redirects"],
+  modules: ["nuxt-easy-redirect"],
   redirects: {
     verbose: true,
     rules: [
@@ -70,11 +70,11 @@ Copyright (c) 2023 casualmatt
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-redirects/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/nuxt-redirects
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-redirects.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/nuxt-redirects
-[license-src]: https://img.shields.io/npm/l/nuxt-redirects.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/nuxt-redirects
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-easy-redirect/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/nuxt-easy-redirect
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-easy-redirect.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/nuxt-easy-redirect
+[license-src]: https://img.shields.io/npm/l/nuxt-easy-redirect.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/nuxt-easy-redirect
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
