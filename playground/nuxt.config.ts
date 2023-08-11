@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   modules: ["../src/module"],
   redirects: {
-    verbese: true,
+    verbose: true,
     rules: [
       {
         origin: "/about",
