@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://undefined/undefined/compare/v0.0.3...v0.0.3)
+
 ## v0.0.2
 
 
@@ -22,7 +26,5 @@
 
 ### ❤️  Contributors
 
-- Matt 
-- Conner Bachmann <bac@christmann.info>
-- Casualmatt <matteo@rezzin.ch>
-
+- [Intevel](https://github.com/Intevel)
+- [Casualmatt](https://github.com/casualmatt)
