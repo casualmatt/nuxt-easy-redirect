@@ -1,6 +1,6 @@
 {
   "name": "nuxt-easy-redirect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "redirects made easy for Nuxt 3",
   "repository": "casualmatt/nuxt-easy-redirect",
   "license": " Apache License Version 2.0",
@@ -41,5 +41,8 @@
     "eslint": "^8.46.0",
     "nuxt": "^3.6.5",
     "vitest": "^0.33.0"
+  },
+  "unbuild": {
+    "failOnWarn": false
   }
 }
