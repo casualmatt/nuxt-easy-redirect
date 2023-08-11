@@ -1,10 +1,11 @@
 import { defineNuxtModule, extendRouteRules } from "@nuxt/kit";
 import { consola } from "consola";
+import { HTTPStatusCode } from "./types";
 
 interface Redirect {
   origin: string;
   destination: string;
-  statusCode: number;
+  statusCode: HTTPStatusCode;
 }
 
 // Module options TypeScript interface definition
@@ -14,7 +15,7 @@ export interface ModuleOptions {
    * @default true
    * @type boolean
    */
-  verbese?: boolean;
+  verbose?: boolean;
   /**
    * list of redirects
    * @type {Array<Redirect>}
@@ -33,7 +34,7 @@ export default defineNuxtModule<ModuleOptions>({
   },
   // Default configuration options of the Nuxt module
   defaults: {
-    verbese: true,
+    verbose: true,
     rules: [],
   },
   hooks: {},
@@ -51,8 +52,8 @@ export default defineNuxtModule<ModuleOptions>({
           statusCode: redirect.statusCode,
         },
       });
-      if (moduleOptions.verbese) {
-        console.log(
+      if (moduleOptions.verbose) {
+        consola.info(
           `  • ${redirect.statusCode}`,
           `From: ${redirect.origin}`,
           `To: ${redirect.destination}`
