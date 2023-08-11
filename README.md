@@ -31,7 +31,7 @@ export default defineNuxtConfig({
 
 ## Configuration
 
-You can configure `nuxt-redirects` in your `nuxt.config.ts` file:
+You can configure `nuxt-easy-redirect` in your `nuxt.config.ts` file:
 
 ```typescript
 // nuxt.config.ts
