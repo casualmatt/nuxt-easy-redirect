@@ -25,7 +25,7 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: "nuxt-redirects",
+    name: "nuxt-easy-redirect",
     configKey: "redirects",
     compatibility: {
       // Semver version of supported nuxt versions
